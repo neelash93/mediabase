@@ -1,6 +1,7 @@
 spring:
-
-#  datasource:
+  application:
+    name: mediabase
+#  datasource: #commenting out to deploy to cloud. Dont need local mysql databases there.
 #    url: jdbc:mysql://localhost:3306/media?useSSL=false&user=root&password=password
 #
 #  jpa:
@@ -14,5 +15,5 @@ spring:
 logging.level:
   root: WARN
 
-movies.ms.url: http://localhost:8081/movies
-podcasts.ms.url: http://localhost:8082/podcasts
+#movies.ms.url: http://localhost:8081/movies   #Commenting out for implementing service-registry
+#podcasts.ms.url: http://localhost:8082/podcasts
