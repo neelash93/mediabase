@@ -20,3 +20,4 @@ applications:
       - route: AN-mediabase.apps.pcf.cpstraining.perficient.com
     services:
       - service-registry
+      - circuit-breaker
